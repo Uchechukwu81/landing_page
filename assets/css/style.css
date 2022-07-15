@@ -1,0 +1,152 @@
+:root{
+    --transition: all 3s ease;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+    line-height: 1.6;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.btn{
+    border-radius: 70rem;
+    background: #3882f6;
+    padding: .3rem 1.5rem;
+    color: #e5e7eb;
+    cursor: pointer;
+}
+
+.nav{
+    background: #1f2937;
+    color: #e5e7eb;
+    height: 60vh;
+    /* z-index: 100; */
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.nav-container li{
+    display: inline;
+}
+
+.nav li a{
+    color: #e5e7eb;
+    padding: 0 1rem;
+    font-size: 18px;
+}
+.nav li a:hover{
+    color: #1f2937;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+}
+.nav-writeup{
+    display: flex;
+    margin-top: 4rem;
+    height: 30vh;
+}
+.awesome{
+    width: 50%;
+    padding: 1rem 0rem;
+}
+.awesome h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.nav-writeup img{
+    margin-left: 70px;
+    width: 30vw;
+}
+.flex-container{
+    height: 50vh;
+}
+.flex-container h1{
+    color: #1f2937;
+    text-align: center;
+    margin: .5rem 0px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.flex-sections{
+    display: flex;
+    justify-content: center;
+}
+.flex-sections .one, .flex-sections .two, .flex-sections .three{
+    height: auto;
+    width: 25vw;
+}
+.flex-sections p{
+    padding: 4px;
+    font-size: 18px;
+}
+.note{
+    height: 50vh;
+    background-color: #e5e7eb;
+}
+.note p{
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 4.5rem;
+}
+.note h3{
+    float: right;
+}
+.action{
+    height: 40vh;
+    display: flex;
+}
+.actionn{
+    background-color: #3882f6;
+    width: 150vh;
+    height: 20vh;
+    align-self: center;
+    margin-left: 12rem;
+    color: #f9f9f9;
+    padding: 20px;
+}
+.actionn h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.actionn .btn{
+    float: right;
+    margin-top: -40px;
+    margin-right: 40px;
+}
+.actionn .btn:hover{
+    background-color: #e5e7eb;
+    color: #3882f6;
+}
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    height: 15vh;
+    padding-top: 35px;
+    font-size: 18px;
+}
+
